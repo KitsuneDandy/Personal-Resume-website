@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import LocaleContext from "./Context/LocaleContext";
+import MainData from "./Component/MainData/mainData";
+import Xp from "./Component/Xp/xp";
+import Interest from "./Component/Interest/interest";
+import NavBar from "./Component/nav";
+import * as Data from "./Data/resumeData";
+import "./App.scss";
 
 function App() {
+  const [lang, setLang] = React.useState("en");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <LocaleContext.Provider value={{ lang: lang, setLang: setLang }}>
+      <div className="App">
+        <NavBar resumepdfData={Data.resumeData.resumepdf} />
+        <MainData mainData={Data.resumeData} skillsData={Data.SKILLS} />
+        <Xp xpData={Data.XP} />
+        <Interest interestData={Data.resumeData} />
+      </div>
+    </LocaleContext.Provider>
   );
 }
 

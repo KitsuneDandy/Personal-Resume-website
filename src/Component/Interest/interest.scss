@@ -1,0 +1,38 @@
+//Src/Component/Interest/interest.scss
+
+.InterestContainer {
+  width: 100%;
+  position: relative;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.InterestBloc {
+  width: 60%;
+  position: absolute;
+}
+
+.InterestContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.SocialContainer {
+  width: 40%;
+  position: absolute;
+  right: 0;
+}
+
+.SocialIconCOntainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-right: 18px;
+  width: 100%;
+  justify-content: flex-end;
+  //   align-items: center;
+  align-content: center;
+}

@@ -1,0 +1,16 @@
+//Src/Component/MainData/sectionB.scss
+
+.SectionBContent {
+  h1 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .SkillsList {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,33 @@
+//Src/Component/Xp/xpBloc.scss
+
+.XpBlocContainer {
+  width: 240px;
+  padding-right: 10px;
+  p {
+    padding-bottom: 5px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+.XpBlocHeader {
+  border-left: 4px solid white;
+  //   border-radius: 10px;
+  padding-left: 10px;
+}
+.XpBlocYear {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.JobTitle {
+  font-style: italic;
+  display: inline-block;
+}
+
+.Description {
+  padding-top: 10px;
+  display: inline-block;
+}

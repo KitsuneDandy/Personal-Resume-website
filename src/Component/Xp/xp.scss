@@ -1,0 +1,17 @@
+//Src/Component/Xp/xp.scss
+
+.XpContainer {
+  background-color: #d11c3b;
+  width: 100%;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.XpBlocList {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 10px;
+}

@@ -1,0 +1,41 @@
+//Src/Component/MainData/sectionA.scss
+
+.SectionAContent {
+  h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+span {
+  display: block;
+}
+
+.LogoSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  .Logo {
+    width: 150px;
+
+    img {
+      width: 100%;
+    }
+  }
+  .LogoTextContent {
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
+.Name {
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.Job {
+  font-size: 26px;
+  font-weight: 500;
+}

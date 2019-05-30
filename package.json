@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node-sass": "^4.12.0",
+    "prettier": "^1.17.1",
     "react": "^16.8.6",
+    "react-context-locale": "^1.2.0",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },

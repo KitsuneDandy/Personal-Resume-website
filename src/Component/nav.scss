@@ -1,0 +1,72 @@
+//src/Component/nav.scss
+
+.NavBarContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-color: #000000;
+  padding-left: 5px;
+  padding-right: 5px;
+  z-index: 10;
+  height: 30px;
+
+  .NavBarContent {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-top: 5px;
+    .TitleNav {
+      display: inline-block;
+    }
+    span {
+      padding-left: 15px;
+      display: inline-block;
+    }
+
+    // .Xubule {
+    //   padding-right: 15px;
+    // }
+
+    a {
+      color: white;
+      padding-right: 15px;
+    }
+
+    // p {
+    //   padding-left: 5px;
+    //   display: inline-block;
+    //   vertical-align: 30%;
+    // }
+  }
+}
+
+// effect icon
+
+.hvr-icon-spin {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-icon-spin .hvr-icon {
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.hvr-icon-spin:hover .hvr-icon,
+.hvr-icon-spin:focus .hvr-icon,
+.hvr-icon-spin:active .hvr-icon {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}

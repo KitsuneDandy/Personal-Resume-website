@@ -1,0 +1,43 @@
+//Src/Component/MainData/mainData.scss
+
+.MainDataContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.SectionContent {
+  width: 60%;
+}
+
+.SectionAandB {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.SectionA {
+  width: 50%;
+}
+.SectionB {
+  width: 50%;
+}
+
+.SectionC {
+  z-index: -1;
+
+  overflow: hidden;
+  max-height: 700px;
+
+  img {
+    width: auto;
+    display: block;
+    z-index: -1;
+    min-height: 700px;
+  }
+}

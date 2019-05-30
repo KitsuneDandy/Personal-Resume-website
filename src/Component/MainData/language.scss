@@ -1,0 +1,17 @@
+//src/Component/MainData/language.scss
+
+.language {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  img {
+    width: 30px;
+  }
+
+  span {
+    padding-left: 5px;
+  }
+}

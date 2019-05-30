@@ -1,0 +1,80 @@
+//Src/Content/MainData/skills.scss
+
+.SkillContainer {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .Hexagon {
+    width: 90px;
+
+    img {
+      width: 100%;
+
+      display: block;
+    }
+  }
+}
+
+.SkillName {
+  text-align: center;
+}
+
+// // hexagon blue css
+// .hexagon {
+//   position: relative;
+//   width: 70px;
+//   height: 40.41px;
+//   background-color: #64c7cc;
+//   margin: 20.21px 0;
+// }
+
+// .hexagon:before,
+// .hexagon:after {
+//   content: "";
+//   position: absolute;
+//   width: 0;
+//   border-left: 35px solid transparent;
+//   border-right: 35px solid transparent;
+// }
+
+// .hexagon:before {
+//   bottom: 100%;
+//   border-bottom: 20.21px solid #64c7cc;
+// }
+
+// .hexagon:after {
+//   top: 100%;
+//   width: 0;
+//   border-top: 20.21px solid #64c7cc;
+// }
+
+// //hexagone red css
+// .hexagonRed {
+//   position: relative;
+//   width: 70px;
+//   height: 40.41px;
+//   background-color: #d11c3b;
+//   margin: 20.21px 0;
+// }
+
+// .hexagonRed:before,
+// .hexagonRed:after {
+//   content: "";
+//   position: absolute;
+//   width: 0;
+//   border-left: 35px solid transparent;
+//   border-right: 35px solid transparent;
+// }
+
+// .hexagonRed:before {
+//   bottom: 100%;
+//   border-bottom: 20.21px solid #d11c3b;
+// }
+
+// .hexagonRed:after {
+//   top: 100%;
+//   width: 0;
+//   border-top: 20.21px solid #d11c3b;
+// }
