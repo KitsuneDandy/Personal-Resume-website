@@ -6,6 +6,24 @@
   }
 }
 
+@mixin responsive-theme-large {
+  @media screen and (max-width: $responsive-theme-large) {
+    @content;
+  }
+}
+
+@mixin responsive-theme-small {
+  @media screen and (max-width: $responsive-theme-small) {
+    @content;
+  }
+}
+
+@mixin responsive-theme-maxzise {
+  @media screen and (max-width: $responsive-theme-maxsize) {
+    @content;
+  }
+}
+
 @mixin mobile-theme-all {
   @media (max-width: $mobile-theme-threshold) {
     @content;

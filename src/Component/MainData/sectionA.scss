@@ -24,9 +24,23 @@ span {
     background-image: url("/img/logo.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    @include mobile-theme-screen {
-      background-image: url("/img/logo-mobile.jpg");
-      border-radius: 50%;
+
+    @include responsive-theme-large {
+      width: 120px;
+      height: 120px;
+      @include mobile-theme-screen {
+        background-image: url("/img/logo-mobile.jpg");
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+      }
+
+      @include responsive-theme-small {
+        background-image: url("/img/logo-mobile.jpg");
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+      }
     }
     // img {
     //   width: 100%;
@@ -35,9 +49,7 @@ span {
   .LogoTextContent {
     font-weight: 600;
     font-size: 18px;
-    @include mobile-theme-screen {
-      padding-left: 10px;
-    }
+    padding-left: 10px;
   }
 }
 
@@ -49,4 +61,7 @@ span {
 .Job {
   font-size: 26px;
   font-weight: 500;
+  @include responsive-theme-large {
+    font-size: 22px;
+  }
 }
