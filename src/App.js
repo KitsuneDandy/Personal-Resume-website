@@ -12,7 +12,10 @@ function App() {
   return (
     <LocaleContext.Provider value={{ lang: lang, setLang: setLang }}>
       <div className="App">
-        <NavBar resumepdfData={Data.resumeData.resumepdf} />
+        <NavBar
+          resumepdfData={Data.resumeData.resumepdf}
+          portfolioData={Data.resumeData.portfolio}
+        />
         <MainData mainData={Data.resumeData} skillsData={Data.SKILLS} />
         <Xp xpData={Data.XP} />
         <Interest interestData={Data.resumeData} />

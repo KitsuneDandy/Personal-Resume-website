@@ -12,7 +12,9 @@
     @include responsive-theme-large {
       width: 60px;
     }
-
+    @media print {
+      width: 50px;
+    }
     img {
       width: 100%;
 

@@ -8,4 +8,7 @@
   @include mobile-theme-screen {
     padding-top: 35px;
   }
+  @media print {
+    padding-top: 0px;
+  }
 }

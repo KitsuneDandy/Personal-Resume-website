@@ -51,16 +51,21 @@ export default function NavBar(props) {
             <i className="fab fa-github fa-lg hvr-icon" />
           </a>
           <a
-            href="./docs/book-englishversion.pdf"
+            href={`${process.env.PUBLIC_URL}/docs/${
+              props.portfolioData.link[lang]
+            }`}
             target="_blank"
             className="hvr-icon-spin"
             rel="noopener noreferrer"
           >
-            <i className="fas fa-swatchbook fa-lg  hvr-icon" /> Portfolio
+            <i className="fas fa-swatchbook fa-lg  hvr-icon" />{" "}
+            {props.portfolioData.title[lang]}
           </a>
 
           <a
-            href={props.resumepdfData.link[lang]}
+            href={`${process.env.PUBLIC_URL}/docs/${
+              props.resumepdfData.link[lang]
+            }`}
             target="_blank"
             className="hvr-icon-spin"
             rel="noopener noreferrer"
@@ -69,9 +74,12 @@ export default function NavBar(props) {
             {props.resumepdfData.title[lang]}
           </a>
         </div>
+
         <div className="TitleNavMobile">
           <a
-            href={props.resumepdfData.link[lang]}
+            href={`${process.env.PUBLIC_URL}/docs/${
+              props.resumepdfData.link[lang]
+            }`}
             target="_blank"
             className="hvr-icon-spin"
             rel="noopener noreferrer"

@@ -108,7 +108,12 @@ export const resumeData = {
   resumepdf: {
     title: { fr: "Télécharger mon CV en pdf", en: "Download my Resume in PDF" },
     titlemobile: { fr: "Télécharger mon CV", en: "Download my Resume" },
-    link: { fr: "", en: "" }
+    link: { fr: "NicolasGoussinCV.pdf", en: "NicolasGoussinResume.pdf" }
+  },
+
+  portfolio: {
+    title: { fr: "Portfolio", en: "Portfolio" },
+    link: { fr: "NicolasGoussinBook-VF.pdf", en: "NicolasGoussinBook-EN.pdf" }
   }
 };
 

@@ -40,11 +40,17 @@
   @include mobile-theme-screen {
     width: 100%;
   }
+  @media print {
+    width: 46%;
+  }
 }
 .SectionB {
   width: 50%;
   @include mobile-theme-screen {
     width: 100%;
+  }
+  @media print {
+    width: 54%;
   }
 }
 
@@ -61,10 +67,17 @@
     display: none;
   }
 
+  @media print {
+    max-height: 640px;
+  }
+
   img {
     width: auto;
     display: block;
     z-index: -1;
     min-height: 700px;
+    @media print {
+      min-height: 613px;
+    }
   }
 }

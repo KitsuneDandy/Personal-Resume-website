@@ -18,6 +18,9 @@ body {
   padding: 0;
   box-sizing: border-box;
   max-width: 1800px;
+  @media print {
+    font-size: 10px;
+  }
 }
 
 code {
@@ -28,6 +31,9 @@ code {
 h1 {
   color: #d11c3b;
   font-size: 24px;
+  @media print {
+    font-size: 22px;
+  }
 }
 
 li {

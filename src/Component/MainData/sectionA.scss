@@ -24,6 +24,10 @@ span {
     background-image: url("/img/logo.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    @media print {
+      width: 100px;
+      height: 100px;
+    }
 
     @include responsive-theme-large {
       width: 120px;
@@ -50,12 +54,20 @@ span {
     font-weight: 600;
     font-size: 18px;
     padding-left: 10px;
+    @media print {
+      font-size: 14px;
+      padding-left: 0px;
+      padding-bottom: 10px;
+    }
   }
 }
 
 .Name {
   font-size: 34px;
   font-weight: 900;
+  @media print {
+    font-size: 23px;
+  }
 }
 
 .Job {
@@ -63,5 +75,8 @@ span {
   font-weight: 500;
   @include responsive-theme-large {
     font-size: 22px;
+  }
+  @media print {
+    font-size: 16px;
   }
 }

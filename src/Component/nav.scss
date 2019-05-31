@@ -12,6 +12,9 @@
   z-index: 10;
   height: 30px;
   max-width: 1800px;
+  @media print {
+    display: none;
+  }
 
   .NavBarContent {
     display: flex;

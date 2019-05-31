@@ -15,6 +15,10 @@
   @include mobile-theme-screen {
     width: 60%;
   }
+
+  @media print {
+    width: 50%;
+  }
 }
 
 .InterestContent {

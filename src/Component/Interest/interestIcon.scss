@@ -13,5 +13,9 @@
     @include mobile-theme-screen {
       margin-left: 10px;
     }
+    @media print {
+      width: 50px;
+      margin-left: 10px;
+    }
   }
 }

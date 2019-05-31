@@ -4,6 +4,9 @@
   h1 {
     padding-bottom: 10px;
     padding-top: 20px;
+    @media print {
+      padding-top: 10px;
+    }
   }
   .SkillsList {
     padding-top: 10px;
