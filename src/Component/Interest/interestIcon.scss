@@ -1,10 +1,17 @@
 //Src/Component/Interest/interestIcon.scss
+@import "../../mixins";
 
 .InterestIcon {
   padding-top: 10px;
   padding-bottom: 5px;
+  @include mobile-theme-screen {
+    padding-bottom: 23px;
+  }
   img {
     width: 80px;
     margin-left: 25px;
+    @include mobile-theme-screen {
+      margin-left: 10px;
+    }
   }
 }

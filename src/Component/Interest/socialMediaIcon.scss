@@ -1,4 +1,5 @@
 //Src/Comonent/Interest/socialMediaIcon.scss
+@import "../../mixins";
 
 .SocialMediaIcon {
   display: flex;
@@ -26,10 +27,17 @@
   height: 60px;
   margin: 10px;
   display: block;
+  @include mobile-theme-screen {
+    width: 47px;
+    height: 44px;
+  }
 
   a {
     color: #ffd13bee;
     font-size: 42px;
     text-align: center;
+    @include mobile-theme-screen {
+      font-size: 32px;
+    }
   }
 }

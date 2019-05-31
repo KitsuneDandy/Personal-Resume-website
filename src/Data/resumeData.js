@@ -66,9 +66,9 @@ export const resumeData = {
   skill: { fr: "Compétences", en: "Skills" },
   otherskills: {
     fr:
-      "#balsamiq #jira #trello #wordpress #office #cms #html #instagram #emailing #créationgraphique #communication #présentationclient #manuelutilisateur #blogging",
+      "#balsamiq #jira #trello #wordpress #office #instagram #emailing #créationgraphique #communication #présentationclient #manuelutilisateur #blogging",
     en:
-      "#balsamiq #jira #trello #wordpress #office #cms #html #instagram #emailing #graphicdesign #communication #customerpresentation #usermanual #blogging"
+      "#balsamiq #jira #trello #wordpress #office #instagram #emailing #graphicdesign #communication #customerpresentation #usermanual #blogging"
   },
 
   interest: {
@@ -107,6 +107,7 @@ export const resumeData = {
   },
   resumepdf: {
     title: { fr: "Télécharger mon CV en pdf", en: "Download my Resume in PDF" },
+    titlemobile: { fr: "Télécharger mon CV", en: "Download my Resume" },
     link: { fr: "", en: "" }
   }
 };
@@ -149,6 +150,19 @@ export const SKILLS = [
     name: { fr: "Management d'équipe", en: "Team Manager" },
     icon: "team.jpg",
     color: "blue"
+  },
+  {
+    name: { fr: "JavaScript", en: "JavaScript" },
+    icon: "javascript.jpg"
+  },
+  {
+    name: { fr: "React", en: "React" },
+    icon: "react.jpg",
+    color: "blue"
+  },
+  {
+    name: { fr: "CSS/HTML5", en: "CSS/HTML5" },
+    icon: "css.jpg"
   }
 ];
 

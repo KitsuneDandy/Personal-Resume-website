@@ -1,4 +1,5 @@
 //Src/Component/MainData/mainData.scss
+@import "../../mixins";
 
 .MainDataContainer {
   width: 100%;
@@ -8,10 +9,16 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   padding-left: 20px;
+  @include mobile-theme-screen {
+    padding-bottom: 15px;
+  }
 }
 
 .SectionContent {
   width: 60%;
+  @include mobile-theme-screen {
+    width: 100%;
+  }
 }
 
 .SectionAandB {
@@ -19,13 +26,22 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  @include mobile-theme-screen {
+    flex-wrap: wrap;
+  }
 }
 
 .SectionA {
   width: 50%;
+  @include mobile-theme-screen {
+    width: 100%;
+  }
 }
 .SectionB {
   width: 50%;
+  @include mobile-theme-screen {
+    width: 100%;
+  }
 }
 
 .SectionC {
@@ -33,6 +49,9 @@
 
   overflow: hidden;
   max-height: 700px;
+  @include mobile-theme-screen {
+    display: none;
+  }
 
   img {
     width: auto;

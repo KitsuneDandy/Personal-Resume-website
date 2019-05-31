@@ -65,10 +65,22 @@ export default function NavBar(props) {
             className="hvr-icon-spin"
             rel="noopener noreferrer"
           >
-            <i className="fas fa-id-badge fa-lg  hvr-icon" />{" "}
+            <i className="fas fa-id-badge fa-lg  hvr-icon" />
             {props.resumepdfData.title[lang]}
           </a>
         </div>
+        <div className="TitleNavMobile">
+          <a
+            href={props.resumepdfData.link[lang]}
+            target="_blank"
+            className="hvr-icon-spin"
+            rel="noopener noreferrer"
+          >
+            <i className="fas fa-id-badge fa-lg  hvr-icon" />
+            {props.resumepdfData.titlemobile[lang]}
+          </a>
+        </div>
+
         <div className="LanguageSelec">
           <a href="" onClick={setFr}>
             Français

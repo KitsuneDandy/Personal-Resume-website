@@ -1,5 +1,7 @@
 //Src/Component/Xp/xp.scss
 
+@import "../../mixins";
+
 .XpContainer {
   background-color: #d11c3b;
   width: 100%;
@@ -14,4 +16,7 @@
   justify-content: space-between;
   align-items: stretch;
   padding-top: 10px;
+  @include mobile-theme-screen {
+    flex-flow: wrap;
+  }
 }

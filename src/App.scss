@@ -1,6 +1,11 @@
+@import "./mixins";
+
 .App {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   padding-top: 30px;
+  @include mobile-theme-screen {
+    padding-top: 35px;
+  }
 }

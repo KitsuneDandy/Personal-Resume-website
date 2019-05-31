@@ -1,8 +1,13 @@
 //Src/Component/Xp/xpBloc.scss
+@import "../../mixins";
 
 .XpBlocContainer {
   width: 240px;
   padding-right: 10px;
+  @include mobile-theme-screen {
+    width: 100%;
+    padding-bottom: 15px;
+  }
   p {
     padding-bottom: 5px;
   }

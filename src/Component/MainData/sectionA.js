@@ -12,7 +12,7 @@ export default function SectionA(props) {
     <div className="SectionAContent">
       <div className="LogoSection">
         <div className="Logo">
-          <img src={`${process.env.PUBLIC_URL}/img/logo.jpg`} alt="Logo" />
+          {/* <img src={`${process.env.PUBLIC_URL}/img/logo.jpg`} alt="Logo" /> */}
         </div>
         <div className="LogoTextContent">
           <span>

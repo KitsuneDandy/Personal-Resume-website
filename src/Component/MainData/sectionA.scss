@@ -1,4 +1,5 @@
 //Src/Component/MainData/sectionA.scss
+@import "../../mixins";
 
 .SectionAContent {
   h1 {
@@ -19,14 +20,24 @@ span {
   align-items: center;
   .Logo {
     width: 150px;
-
-    img {
-      width: 100%;
+    height: 150px;
+    background-image: url("/img/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    @include mobile-theme-screen {
+      background-image: url("/img/logo-mobile.jpg");
+      border-radius: 50%;
     }
+    // img {
+    //   width: 100%;
+    // }
   }
   .LogoTextContent {
     font-weight: 600;
     font-size: 18px;
+    @include mobile-theme-screen {
+      padding-left: 10px;
+    }
   }
 }
 
