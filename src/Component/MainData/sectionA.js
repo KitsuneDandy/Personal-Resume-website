@@ -11,9 +11,7 @@ export default function SectionA(props) {
   return (
     <div className="SectionAContent">
       <div className="LogoSection">
-        <div className="Logo">
-          {/* <img src={`${process.env.PUBLIC_URL}/img/logo.jpg`} alt="Logo" /> */}
-        </div>
+        <div className="Logo" />
         <div className="LogoTextContent">
           <span>
             <a href={`mailto:${props.mainData.email}`}>

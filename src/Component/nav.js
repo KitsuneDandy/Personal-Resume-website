@@ -78,6 +78,17 @@ export default function NavBar(props) {
         <div className="TitleNavMobile">
           <a
             href={`${process.env.PUBLIC_URL}/docs/${
+              props.portfolioData.link[lang]
+            }`}
+            target="_blank"
+            className="hvr-icon-spin"
+            rel="noopener noreferrer"
+          >
+            <i className="fas fa-swatchbook fa-lg  hvr-icon" />
+            {props.portfolioData.title[lang]}
+          </a>
+          <a
+            href={`${process.env.PUBLIC_URL}/docs/${
               props.resumepdfData.link[lang]
             }`}
             target="_blank"
@@ -97,7 +108,7 @@ export default function NavBar(props) {
           <a href="" onClick={setEn}>
             English
           </a>
-          <i className="fas fa-bars fa-lg" />
+          {/* <i className="fas fa-bars fa-lg" /> */}
         </div>
       </div>
     </div>

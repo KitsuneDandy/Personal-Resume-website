@@ -14,8 +14,8 @@ export const resumeData = {
     list: [
       {
         name: {
-          fr: "DUT Services et Réseaux de communication",
-          en: "Technologycal Universirty Degree"
+          fr: "DUT Services et Réseaux de Communication",
+          en: "Technological Universirty Degree"
         },
         location: {
           fr: "IUT L'isle d'abeau Grenoble III",
@@ -40,16 +40,41 @@ export const resumeData = {
   languages: {
     title: { fr: "Langues", en: "Languages" },
     list: [
-      { icon: "flag-fr.jpg", level: { fr: "Langue maternelle", en: "Native" } },
+      {
+        icon: "flag-fr.jpg",
+        level: { fr: "Langue maternelle", en: "Native" },
+        school: {
+          fr: "",
+          en: ""
+        }
+      },
       {
         icon: "flag-uk.jpg",
-        level: { fr: "Intermédiaire ", en: "Intermediate" }
+        level: { fr: "Intermédiaire ", en: "Intermediate" },
+        school: {
+          fr: "",
+          en: ""
+        }
       },
       {
         icon: "flag-jp.jpg",
-        level: { fr: "Intermédiaire ", en: "Intermediate - ~JLPT4" }
+        level: {
+          fr: "Intermédiaire",
+          en: "Intermediate"
+        },
+        school: {
+          fr: "(Nihongo Center Kyoto 2018)",
+          en: "(Nihongo Center Kyoto 2018)"
+        }
       },
-      { icon: "flag-es.jpg", level: { fr: "Scoalaire", en: "Notions" } }
+      {
+        icon: "flag-es.jpg",
+        level: { fr: "Scoalaire", en: "School Level" },
+        school: {
+          fr: "",
+          en: ""
+        }
+      }
     ]
   },
 
@@ -81,7 +106,7 @@ export const resumeData = {
     }
   },
   social: {
-    title: { fr: "Suivez moi", en: "Follow me" },
+    title: { fr: "Suivez-moi", en: "Follow me" },
     medias: [
       {
         title: "@Ngee",
@@ -106,13 +131,16 @@ export const resumeData = {
     ]
   },
   resumepdf: {
-    title: { fr: "Télécharger mon CV en pdf", en: "Download my Resume in PDF" },
-    titlemobile: { fr: "Télécharger mon CV", en: "Download my Resume" },
+    title: {
+      fr: " Télécharger mon CV en pdf",
+      en: " Download my Resume in PDF"
+    },
+    titlemobile: { fr: " Télécharger mon CV", en: " Download my Resume" },
     link: { fr: "NicolasGoussinCV.pdf", en: "NicolasGoussinResume.pdf" }
   },
 
   portfolio: {
-    title: { fr: "Portfolio", en: "Portfolio" },
+    title: { fr: " Portfolio", en: " Portfolio" },
     link: { fr: "NicolasGoussinBook-VF.pdf", en: "NicolasGoussinBook-EN.pdf" }
   }
 };
@@ -178,8 +206,13 @@ export const XP = {
       lastyear: "2019",
       firstyear: { fr: "Janvier - 2018", en: "January - 2018" },
       company: "Kitsune Dandy",
-      jobtitle: { fr: "Freelance", en: "Freelancer" },
-      content: { fr: "", en: "" }
+      jobtitle: { fr: "Auto-entrepreneur", en: "Self Employed" },
+      content: {
+        fr:
+          "<p>Mission de Conseil pour des clients comme TV France International et réalisation de sites internet.<p></p>Création d'un guide en ligne pour les Digital Nomads et les amateurs de café sur les cafés d'Edimbourg, Kyoto et Tokyo.</p>",
+        en:
+          "<p>Consulting mission for clients such as TV France International, website development.</p><p>Creation of an online guide for Digital Nomads and coffee lovers on Edinburgh, Kyoto and Tokyo coffees.</p>"
+      }
     },
     {
       lastyear: "2017",
@@ -190,7 +223,7 @@ export const XP = {
         fr:
           "<p>Responsable de la plateforme VOD BtoB Screenopsis.com. Gestion des différents prestataires, du budget et des équipes.</p><p>Création des interfaces utilsiateurs et des nouveaux services de la plateforme en ligne et mobile.</p>",
         en:
-          "<p>In charge for the VOD platform BtoB Screenopsis.com. Management of different providers, budget and teams</p><p>Creating user interfaces and new services of the online platform and mobile devices"
+          "<p>In charge for the VOD platform BtoB Screenopsis.com. Management of different providers, budget and teams</p><p>Creating user interfaces and new services of the online platform and mobile devices.</p>"
       }
     },
     {
@@ -205,7 +238,7 @@ export const XP = {
         fr:
           "<p>Gestion et évolution des différents sites internet. Mise en place d'une vidéothèque en ligne et physique. Mise à jour des contenus, relation clients et acheteurs internationaux.</p><p>Création de cahiers des besoins, gestion d'équipe, présentation et tenue de stand sur des marchés internationaux. Création graphique, et administrateur du réseau.</p>",
         en:
-          "<p>Management and evolution of the different websites. Setting up a online and physical video library. Content update, relationship with customers and international buyers.</p><p>Creation of requirements books, team management, presentation and stand holding in international markets. Graphic design and network administrator</p>"
+          "<p>Management and evolution of the different websites. Setting up a online and physical video library. Content update, relationship with customers and international buyers.</p><p>Creation of requirements books, team management, presentation and stand holding in international markets. Graphic design and network administrator.</p>"
       }
     },
     {
@@ -232,7 +265,7 @@ export const XP = {
         fr:
           "<p>Gestion du traffic publicitaire sur une vingtaine de sites. Réalisation et mises à jour des sites web de la régie dans 3 pays.</p><p> Gestion d'un trafic de 73 millions de pages paps par mois. Conception de bannières publicitaires, mise en place d'outils de gestion de campagne en backoffice. Suivi statistiques des campagnes publicitaires.</p>",
         en:
-          "<p>Management of advertising traffic on 20 websites.Realization and updates of the websites in 3 countries.</p><p>Traffic Management of 73 million pages seen with advertising per mont. Conception of ads banner, set up campaign management tools backoffice. Statistical monitoring of advertising compaigns</p>"
+          "<p>Management of advertising traffic on 20 websites.Realization and updates of the websites in 3 countries.</p><p>Traffic Management of 73 million pages seen with advertising per mont. Conception of ads banner, set up campaign management tools backoffice. Statistical monitoring of advertising compaigns.</p>"
       }
     }
   ]
