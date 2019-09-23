@@ -91,18 +91,18 @@ export const resumeData = {
   skill: { fr: "Compétences", en: "Skills" },
   otherskills: {
     fr:
-      "#balsamiq #jira #trello #wordpress #office #instagram #emailing #créationgraphique #communication #présentationclient #manuelutilisateur #blogging",
+      "#balsamiq #jira #trello #wordpress #office #instagram #emailing #créationgraphique #communication #présentationclient #manuelutilisateur #blogging #podcast",
     en:
-      "#balsamiq #jira #trello #wordpress #office #instagram #emailing #graphicdesign #communication #customerpresentation #usermanual #blogging"
+      "#balsamiq #jira #trello #wordpress #office #instagram #emailing #graphicdesign #communication #customerpresentation #usermanual #blogging #podcast"
   },
 
   interest: {
     title: { fr: "Intéret", en: "Interest" },
     list: {
       fr:
-        "#photographie #japon #indé #folk #jazz #geek #jeuxvidéos #switch #manga #cinéma #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #sabrelaser #chiens #innovation #vélo #lubbies #découvrir #café #voyage #football",
+        "#photographie #japon #indé #folk #jazz #geek #jeuxvidéos #switch #manga #cinéma #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #podcast #sabrelaser #chiens #innovation #vélo #lubbies #découvrir #café #voyage #football",
       en:
-        "#photography #japan #indie #folk #jazz #geek #videos #switch #manga #movie #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #lightsaber #dogs #innovation #discover #coffe #travel #soccer"
+        "#photography #japan #indie #folk #jazz #geek #videos #switch #manga #movie #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #podcast #lightsaber #dogs #innovation #discover #coffe #travel #soccer"
     }
   },
   social: {
@@ -209,9 +209,9 @@ export const XP = {
       jobtitle: { fr: "Auto-entrepreneur", en: "Self Employed" },
       content: {
         fr:
-          "<p>Mission de Conseil pour des clients comme TV France International et réalisation de sites internet.<p></p>Création d'un guide en ligne pour les Digital Nomads et les amateurs de café sur les cafés d'Edimbourg, Kyoto et Tokyo.</p>",
+          "<p>Mission de Conseil pour des clients comme TV France International et réalisation de sites internet.<p></p>Dernière Création www.tokyovisite.com site vitrine et de réservation de guide tour sur Tokyo.</p>",
         en:
-          "<p>Consulting mission for clients such as TV France International, website development.</p><p>Creation of an online guide for Digital Nomads and coffee lovers on Edinburgh, Kyoto and Tokyo coffees.</p>"
+          "<p>Consulting mission for clients such as TV France International, website development.</p><p>Latest Creation www.tokyovisite.com  showcase and booking website of a Tokyo guide tour.</p>"
       }
     },
     {
