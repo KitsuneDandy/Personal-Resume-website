@@ -8,7 +8,7 @@ export const resumeData = {
   phonenumber: "",
   jobtitle: "Internet Project Manager",
   jobtitle2: "Front-End Developper",
-  adresses: "7 Marchmont Crescent - Edinburgh EH9 1HN",
+  adresses: "L'heure Bleu - 600-8434 - 278 Horinouchi-cho, Shimogyo-ku, Kyoto",
   degrees: {
     title: { fr: "Diplômes", en: "Degrees" },
     list: [
