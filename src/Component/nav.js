@@ -51,9 +51,7 @@ export default function NavBar(props) {
             <i className="fab fa-github fa-lg hvr-icon" />
           </a>
           <a
-            href={`${process.env.PUBLIC_URL}/docs/${
-              props.portfolioData.link[lang]
-            }`}
+            href="https://book.ngee.me"
             target="_blank"
             className="hvr-icon-spin"
             rel="noopener noreferrer"
@@ -63,9 +61,7 @@ export default function NavBar(props) {
           </a>
 
           <a
-            href={`${process.env.PUBLIC_URL}/docs/${
-              props.resumepdfData.link[lang]
-            }`}
+            href={`${process.env.PUBLIC_URL}/docs/${props.resumepdfData.link[lang]}`}
             target="_blank"
             className="hvr-icon-spin"
             rel="noopener noreferrer"
@@ -77,9 +73,7 @@ export default function NavBar(props) {
 
         <div className="TitleNavMobile">
           <a
-            href={`${process.env.PUBLIC_URL}/docs/${
-              props.portfolioData.link[lang]
-            }`}
+            href={`${process.env.PUBLIC_URL}/docs/${props.portfolioData.link[lang]}`}
             target="_blank"
             className="hvr-icon-spin"
             rel="noopener noreferrer"
@@ -88,9 +82,7 @@ export default function NavBar(props) {
             {props.portfolioData.title[lang]}
           </a>
           <a
-            href={`${process.env.PUBLIC_URL}/docs/${
-              props.resumepdfData.link[lang]
-            }`}
+            href={`${process.env.PUBLIC_URL}/docs/${props.resumepdfData.link[lang]}`}
             target="_blank"
             className="hvr-icon-spin"
             rel="noopener noreferrer"
