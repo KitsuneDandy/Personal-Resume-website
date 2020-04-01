@@ -8,7 +8,7 @@ export const resumeData = {
   phonenumber: "",
   jobtitle: "Internet Project Manager",
   jobtitle2: "Front-End Developper",
-  adresses: "L'heure Bleu - 600-8434 - 278 Horinouchi-cho, Shimogyo-ku, Kyoto",
+  adresses: "55 Boulevard de la Liberté - 92320 Châtillon",
   degrees: {
     title: { fr: "Diplômes", en: "Degrees" },
     list: [
@@ -84,7 +84,7 @@ export const resumeData = {
       fr:
         "Vous accompagner dans la mise en oeuvre de vos projets numériques et de votre stratégie de communication sur internet",
       en:
-        "I wish settle permanently in Japan and invest myself fully in a new rewarding professional adventure"
+        "Work with you in the implementation of your digital projects, and your internet communication strategy."
     }
   },
 
@@ -100,9 +100,9 @@ export const resumeData = {
     title: { fr: "Intéret", en: "Interest" },
     list: {
       fr:
-        "#photographie #japon #indé #folk #jazz #geek #jeuxvidéos #switch #manga #cinéma #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #podcast #sabrelaser #chiens #innovation #vélo #lubbies #découvrir #café #voyage #football",
+        "#photographie #japon #indé #folk #jazz #geek #jeuxvidéos #switch #manga #cinéma #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #podcast #sabrelaser #chiens #innovation #vélo #lubbies #découvrir #café #football // #voyage(Japon, Canada, Danemark, Espagne, Royaume-Uni...) #résider (Japon, Ecosse) ",
       en:
-        "#photography #japan #indie #folk #jazz #geek #videos #switch #manga #movie #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #podcast #lightsaber #dogs #innovation #discover #coffe #travel #soccer"
+        "#photography #japan #indie #folk #jazz #geek #videos #switch #manga #movie #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #podcast #lightsaber #dogs #innovation #discover #coffe #soccer // #travel (Japan, Canada, Denmark, Spain, United Kingdom...) #lived(Japan, Scotland)"
     }
   },
   social: {
