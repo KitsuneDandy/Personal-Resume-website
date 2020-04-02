@@ -203,7 +203,7 @@ export const XP = {
   title: { fr: "Expériences", en: "Experiences" },
   experiences: [
     {
-      lastyear: "2019",
+      lastyear: "2020",
       firstyear: { fr: "Janvier - 2018", en: "January - 2018" },
       company: "Kitsune Dandy",
       jobtitle: { fr: "Auto-entrepreneur", en: "Self Employed" },
