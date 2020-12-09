@@ -93,11 +93,11 @@ export default function NavBar(props) {
         </div>
 
         <div className="LanguageSelec">
-          <a href="https://www.ngee.me" onClick={setFr}>
+          <a href="" onClick={setFr}>
             Français
           </a>
 
-          <a href="https://www.ngee.me" onClick={setEn}>
+          <a href="" onClick={setEn}>
             English
           </a>
           {/* <i className="fas fa-bars fa-lg" /> */}
