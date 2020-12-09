@@ -260,7 +260,7 @@ export const XP = {
       lastyear: "2001",
       firstyear: { fr: "Juin - 2000", en: "June - 2000" },
       company: "Ideadvert",
-      jobtitle: { fr: "", en: "Traffic Manager / Webmaster" },
+      jobtitle: { fr: "Traffic Manager / Webmaster", en: "Traffic Manager / Webmaster" },
       content: {
         fr:
           "<p>Gestion du traffic publicitaire sur une vingtaine de sites. Réalisation et mises à jour des sites web de la régie dans 3 pays.</p><p> Gestion d'un trafic de 73 millions de pages paps par mois. Conception de bannières publicitaires, mise en place d'outils de gestion de campagne en backoffice. Suivi statistiques des campagnes publicitaires.</p>",
