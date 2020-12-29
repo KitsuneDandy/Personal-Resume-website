@@ -91,18 +91,18 @@ export const resumeData = {
   skill: { fr: "Compétences", en: "Skills" },
   otherskills: {
     fr:
-      "#balsamiq #jira #trello #wordpress #office #instagram #emailing #créationgraphique #communication #présentationclient #manuelutilisateur #blogging #podcast",
+      "#balsamiq #jira #trello #react #office #instagram #emailing #créationgraphique #communication #présentationclient #manuelutilisateur #blogging #podcast",
     en:
-      "#balsamiq #jira #trello #wordpress #office #instagram #emailing #graphicdesign #communication #customerpresentation #usermanual #blogging #podcast"
+      "#balsamiq #jira #trello #react #office #instagram #emailing #graphicdesign #communication #customerpresentation #usermanual #blogging #podcast"
   },
 
   interest: {
     title: { fr: "Intéret", en: "Interest" },
     list: {
       fr:
-        "#photographie #japon #indé #folk #jazz #geek #jeuxvidéos #switch #manga #cinéma #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #podcast #sabrelaser #chiens #innovation #vélo #lubbies #découvrir #café #football // #voyage(Japon, Canada, Danemark, Espagne, Royaume-Uni...) #résider (Japon, Ecosse) ",
+        "#photographie #japon #pâtisser #indé #folk #jazz #geek #jeuxvidéos #switch #manga #cinéma #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #podcast #sabrelaser #chiens #innovation #vélo #lubbies #découvrir #café #football // #voyage(Japon, Canada, Danemark, Espagne, Royaume-Uni...) #résider (Japon, Ecosse) ",
       en:
-        "#photography #japan #indie #folk #jazz #geek #videos #switch #manga #movie #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #podcast #lightsaber #dogs #innovation #discover #coffe #soccer // #travel (Japan, Canada, Denmark, Spain, United Kingdom...) #lived(Japan, Scotland)"
+        "#photography #japan #bake #indie #folk #jazz #geek #videos #switch #manga #movie #coffeeshop #illustration #architecture #hobbits #kickstarter #internet #podcast #lightsaber #dogs #innovation #discover #coffe #soccer // #travel (Japan, Canada, Denmark, Spain, United Kingdom...) #lived(Japan, Scotland)"
     }
   },
   social: {
@@ -189,7 +189,7 @@ export const SKILLS = [
     icon: "javascript.jpg"
   },
   {
-    name: { fr: "React", en: "React" },
+    name: { fr: "Wordpress", en: "Wordpress" },
     icon: "react.jpg",
     color: "blue"
   },
