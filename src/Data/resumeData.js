@@ -209,9 +209,9 @@ export const XP = {
       jobtitle: { fr: "Auto-entrepreneur", en: "Self Employed" },
       content: {
         fr:
-          "<p>Mission de Conseil pour des clients comme TV France International et réalisation de sites internet.<p></p>Dernière Création <a href='https://www.tokyovisite.com' target='_blank' style='color:white'>www.tokyovisite.com</a> site vitrine et de réservation de guide tour sur Tokyo.</p>",
+          "<p>Mission de Conseil pour des clients comme PlanHub.ca, TV France International et réalisation de sites internet.<p></p>Dernière Création <a href='https://www.tokyovisite.com' target='_blank' style='color:white'>www.tokyovisite.com</a> site vitrine et de réservation de guide tour sur Tokyo.</p>",
         en:
-          "<p>Consulting mission for clients such as TV France International, website development.</p><p>Latest Creation <a href='https://www.tokyovisite.com' target='_blank' style='color:white'>www.tokyovisite.com</a> showcase and booking website of a Tokyo guide tour.</p>"
+          "<p>Consulting mission for clients such as PlanHub.ca, TV France International, website development.</p><p>Latest Creation <a href='https://www.tokyovisite.com' target='_blank' style='color:white'>www.tokyovisite.com</a> showcase and booking website of a Tokyo guide tour.</p>"
       }
     },
     {
